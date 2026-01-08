@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Umbrella Network Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 15px;
+            padding: 15px 30px;
+            font-size: 24px;
+            color: #0af;
+            background-color: #333;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        a:hover {
+            background-color: #0af;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Umbrella Network</h1>
+    <p>Click a page below to explore:</p>
+
+    <!-- Links to your other HTML files -->
+    <a href="gba.html">GBA Emulator</a>
+    <a href="play.html">Play Page</a>
+    <a href="about.html">About</a>
+
+</body>
+</html>
